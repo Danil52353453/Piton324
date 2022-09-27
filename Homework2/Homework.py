@@ -7,5 +7,5 @@
 N = int(input("Введите число : "))
 size = 1
 for i in range(N):
-    size *=4
+    size *=i+1
     print(size , end= " ")
